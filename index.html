@@ -16,7 +16,8 @@
         <div class="topnav">
             <div class="logodiv">
                 <a href="#home" >
-                <img class="logo" src="penguin.jpg"> </a>
+                  <img class="logo" src="penguin.jpg">
+                </a>
             </div>
             <div class="content">
                 <div class="dropdown">
@@ -24,10 +25,10 @@
                       <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                      <a href="#personas-storyboarding">personas & storyboarding</a>
-                      <a href="#iterative-design">iterative design</a>
+                      <a href="#personas">personas & storyboarding</a>
                       <a href="#development">development</a>
                       <a href="#dab">dorms @ brown</a>
+                      <a href="#iterative">iterative design</a>
                       
                     </div>
                 </div>
@@ -39,18 +40,24 @@
       <!-- title -->
       <div style="padding-bottom: 250px; padding-top: 300px;" class="header">
         hi, i'm chubbypenguin000
-        <p> & this is my portfolio</p>
+        <p> & welcome to my portfolio </p>
       </div>
 
       <!-- about page -->
-      <div style="padding-bottom: 30px;" class="row">
+      <div id="aboutus" style="padding-bottom: 30px;" class="row">
         <div class="column-text">
-          <p class="header2">a bit about cp000</p>
+          <p class="header2" style="margin: 0px">a bit about cp000</p>
+          <p class="header2" style="font-size:11px"> (and this website) </p>
+
           <p> i'm a student from california studying computer science and cognitive neuroscience (poorly). aside from these studies,
             i enjoy grocery shopping, music, and pottery.
           </p>
-          <p> incredibly excited to learn more? </p>
-          <button class="button" href="aboutme">click here</button>
+          <p> so what is this page about? for my uiux course, i've worked on a multitude of projects, to which 3 are showcased alongside a project i worked on previously.
+            i hope to relay my growth from the beginning of the semester, where i had limited frontend skills, to being able to create responsive and interactive websites.
+          </p>
+          <p>
+            i hope you enjoy experiencing my uiux progression with each project that you view.
+          </p>
         </div>
         <div class="column-img">
           <img id="business-img" src="pic.jpg"/>
@@ -59,44 +66,53 @@
 
       <!-- projects -->
       <div class="header">
-        ooo
-        <p> projects...</p>
+        ooo...
+        <p> what has cp000 been up to?</p>
       </div>
+
+      <!-- grid -->
       <div class="container">
         <div class="box">
           <!-- personas & storyboarding -->
-          <a href="https://chubbypenguin000.github.io/personas_and_storyboarding/" target="_blank">
-            <img id="proj-img" src="airpods.jpg">
-            <h1>personas & storyboarding</h1>
-          </a>
-            <p style="padding-bottom: 100px;">a delve into the experience of an AirPod user, and a characterization of their personas</p>
+          <div id="personas">
+            <a href="https://chubbypenguin000.github.io/personas_and_storyboarding/" target="_blank">
+              <img id="proj-img" src="airpods.jpg">
+              <h1>personas & storyboarding</h1>
+            </a>
+              <p style="padding-bottom: 100px;">a delve into the experience of an AirPod user, and a characterization of their personas.</p>
+          </div>
 
             <!-- dab -->
-            <a href="https://github.com/likaixii/DAB" target="_blank">
-              <img id="proj-img" src="dorm.jpg">
-              <h1>dorms @ brown</h1>
-            </a>
-            <p>a webapp for BrownU students, with insights and photos for each dorm</p>
-
+            <div id="dab">
+              <a href="https://github.com/likaixii/DAB" target="_blank">
+                <img id="proj-img" src="dorm.jpg">
+                <h1>dorms @ brown</h1>
+              </a>
+              <p>a (to-be-deployed) webapp for BrownU students, with insights into each dorm. indulge yourself with descriptions, images, student reviews, floorplans, and more!</p>
+            </div>
         </div>
 
         <div class="box">
           <!-- development -->
-          <a href="https://chubbypenguin000.github.io/development2/" target="_blank">
-            <img id="proj-img" src="plants.jpg">
-            <h1>development</h1>
-          </a>
-          <p style="padding-bottom: 100px;">an interactive plant shop interface</p>
-
+          <div id="development">
+            <a href="https://chubbypenguin000.github.io/development2/" target="_blank">
+              <img id="proj-img" src="plants.jpg">
+              <h1>development</h1>
+            </a>
+            <p style="padding-bottom: 100px;">an interactive plant shop interface. shop for plants of varying species, pot sizes, and price!</p>
+          </div>
           <!-- iterative design -->
-          <a href="https://sleepypenguin111.github.io/iterative-design/" target="_blank">
-            <img id="proj-img" src="plane.jpg">
-            <h1>iterative design</h1>
-          </a>
-          <p>a mockup for Airhart Aeronatics, a plane-rental startup</p>
-
-
+          <div id="iterative">
+            <a href="https://sleepypenguin111.github.io/iterative-design/" target="_blank">
+              <img id="proj-img" src="plane.jpg">
+              <h1>iterative design</h1>
+            </a>
+            <p>a mockup for Airhart Aeronatics, a plane-rental startup. experience the process of renting your own plane by navigating to our high-fidelity figma.</p>
         </div>
+      </div>
+
+      <!-- contact -->
+    <p style="font-size: 13px; padding:100px 100px 35px;" id="contact"> questions or comments? you can contact me at chubbypenguin000@not-a-real-email.com</p>
 
     </main>
 	<script src="index.js"></script>

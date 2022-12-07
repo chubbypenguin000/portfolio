@@ -9,6 +9,28 @@ body {
     margin: 20px;
 }
 
+a:link {
+    text-decoration: none;
+    color: #0b1699;
+}
+
+.column-text a:link {
+    /* unvisited link */
+    color: #0b1699;
+    text-decoration: none;
+}
+
+a:visited {
+    /* visited link */
+    color: #784a94;
+    text-decoration: none;
+}
+
+a:hover {
+    /* hovered link */
+    color: #3f4abf;
+    text-decoration: none;
+}
 
 .button {
     background-color: white;
@@ -288,16 +310,7 @@ p {
     align-items: center;
 }
 
-a:link { text-decoration: none; }
 
-
-/* a:visited { text-decoration: none; } */
-
-
-/* a:hover { text-decoration: none; } */
-
-
-/* a:active { text-decoration: none; } */
 
 
 .column-text {
@@ -310,23 +323,7 @@ a:link { text-decoration: none; }
     flex-direction: column;
 }
 
-.column-text a:link {
-    /* unvisited link */
-    color: #0b1699;
-    text-decoration: none;
-}
 
-a:visited {
-    /* visited link */
-    color: #784a94;
-    text-decoration: none;
-}
-
-a:hover {
-    /* hovered link */
-    color: #8f1b1b;
-    text-decoration: none;
-}
 
 .column-img {
     flex: 2;
@@ -337,8 +334,8 @@ a:hover {
 }
 
 #business-img {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 75%;
+    max-height: 75%;
 }
 
 
@@ -374,4 +371,24 @@ a:hover {
     margin: 10px;
     text-align: center;
 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#development {
+    scroll-margin-top: -20px;
+}
+
+#personas {
+    scroll-margin-top: 100px;
+}
+
+#dab {
+    scroll-margin-top: 100px;
+}
+
+#iterative {
+    scroll-margin-top: 100px;
 }
