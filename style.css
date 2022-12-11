@@ -339,6 +339,32 @@ p {
 }
 
 
+.column-text-about {
+    font-size: 15px;
+    flex: 2;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 130px;
+    flex-direction: column;
+}
+
+
+
+.column-img-about {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 45px;
+}
+
+#business-img-about {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+
 .container{
     display:flex;
     flex-direction: row;
@@ -371,24 +397,4 @@ p {
     margin: 10px;
     text-align: center;
 
-}
-
-html {
-    scroll-behavior: smooth;
-  }
-
-#development {
-    scroll-margin-top: -20px;
-}
-
-#personas {
-    scroll-margin-top: 100px;
-}
-
-#dab {
-    scroll-margin-top: 100px;
-}
-
-#iterative {
-    scroll-margin-top: 100px;
 }
